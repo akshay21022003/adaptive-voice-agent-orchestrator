@@ -1,3 +1,5 @@
+fastapi
+uvicorn[standard]
 langgraph
 langchain
 langchain-openai
@@ -5,3 +7,9 @@ openai
 httpx
 python-dotenv
 rich
+sqlalchemy
+alembic
+psycopg2-binary
+dependency-injector
+langgraph-checkpoint-postgres
+psycopg[binary,pool]

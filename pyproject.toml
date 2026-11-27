@@ -1,0 +1,26 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+# `app` lives under the project directory, so tell ruff it is first-party.
+src = ["01-mini-projects/agent-orchestrator"]
+
+[tool.ruff.lint]
+# E/W = pycodestyle, F = pyflakes (undefined names, unused/bad imports),
+# I = isort (import ordering), B = bugbear, UP = pyupgrade
+select = ["E", "W", "F", "I", "B", "UP"]
+ignore = []
+
+[tool.ruff.lint.flake8-bugbear]
+# FastAPI declares dependencies as `Depends(...)` default arguments.
+extend-immutable-calls = ["fastapi.Depends"]
+
+[tool.ruff.lint.isort]
+# Match the black profile already configured in the editor
+combine-as-imports = true
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"

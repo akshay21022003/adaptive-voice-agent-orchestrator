@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="600" fill="#f1f5f9"/>
+  <!-- header -->
+  <rect width="960" height="60" fill="#ffffff"/>
+  <line x1="0" y1="60" x2="960" y2="60" stroke="#e2e8f0"/>
+  <rect x="32" y="18" width="24" height="24" rx="6" fill="#4f46e5"/>
+  <text x="68" y="37" font-size="18" font-weight="700" fill="#0f172a">Language Tutor</text>
+  <text x="300" y="37" font-size="14" font-weight="600" fill="#4f46e5">New lesson</text>
+  <rect x="300" y="46" width="76" height="2" fill="#4f46e5"/>
+  <text x="410" y="37" font-size="14" fill="#64748b">History</text>
+  <circle cx="800" cy="30" r="14" fill="#c7d2fe"/>
+  <text x="794" y="35" font-size="13" font-weight="700" fill="#3730a3">A</text>
+  <text x="824" y="35" font-size="14" fill="#334155">Arun</text>
+  <text x="872" y="35" font-size="12" fill="#4f46e5">Switch</text>
+  <!-- card -->
+  <rect x="220" y="110" width="520" height="420" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="256" y="156" font-size="22" font-weight="700" fill="#0f172a">What do you want to learn?</text>
+  <text x="256" y="182" font-size="14" fill="#64748b">Pick a language, your level and a topic. We'll build a lesson and a short quiz.</text>
+  <text x="256" y="226" font-size="13" font-weight="600" fill="#334155">Language</text>
+  <rect x="256" y="236" width="448" height="40" rx="8" fill="#fff" stroke="#cbd5e1"/>
+  <text x="272" y="261" font-size="14" fill="#0f172a">Spanish</text>
+  <text x="256" y="306" font-size="13" font-weight="600" fill="#334155">Level</text>
+  <rect x="256" y="316" width="448" height="40" rx="8" fill="#fff" stroke="#cbd5e1"/>
+  <text x="272" y="341" font-size="14" fill="#0f172a">A1 - Beginner</text>
+  <path d="M676 332 l8 8 l8 -8" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="256" y="386" font-size="13" font-weight="600" fill="#334155">Topic</text>
+  <rect x="256" y="396" width="448" height="40" rx="8" fill="#fff" stroke="#cbd5e1"/>
+  <text x="272" y="421" font-size="14" fill="#0f172a">Greetings and introductions</text>
+  <rect x="256" y="466" width="448" height="44" rx="8" fill="#4f46e5"/>
+  <text x="480" y="494" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Start lesson</text>
+  <text x="480" y="570" font-size="12" fill="#94a3b8" text-anchor="middle">Mockup: after submitting, the button shows "Preparing your lesson..." for a few seconds.</text>
+</svg>

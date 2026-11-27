@@ -3,6 +3,10 @@
 .env.*
 !.env.example
 
+# pgAdmin config / credentials — committed with local dev defaults (password is the
+# non-secret `password` from docker-compose). If you ever point these at a real/shared
+# DB, git-ignore them again instead of committing the real password.
+
 # Virtual environments
 .venv/
 venv/
